@@ -6,7 +6,7 @@ const router = require('./router.js')
 
 app.use(morgan('dev'))
 app.use(express.static('public'))
-app.use(express.urlencoded()); //this is for body parsing
+app.use(express.urlencoded())
 app.use(router)
 
 const setUp = async()=>{

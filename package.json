@@ -1,6 +1,7 @@
-
 {
-  "scripts": {"start:dev": "nodemon app.js"},
+  "scripts": {
+    "start:dev": "nodemon app.js"
+  },
   "dependencies": {
     "express": "^4.18.1",
     "morgan": "^1.10.0",
@@ -8,5 +9,19 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "name": "dealers_choice_express_pg",
+  "description": "- pick a topic you are interested in.   - sports   - entertainment   - cooking   - coding   - hobbies   - or anything else you are interested in! - create an express application which displays data stored in a postgres database   - with a listing route   - and a detail route   - and the ability to get from the detail route back to the listing route",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuan-xiaowen/dealers_choice_express_pg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuan-xiaowen/dealers_choice_express_pg/issues"
+  },
+  "homepage": "https://github.com/yuan-xiaowen/dealers_choice_express_pg#readme"
 }
